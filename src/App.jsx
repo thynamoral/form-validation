@@ -7,7 +7,6 @@ function App() {
   const [values, setValues] = useState({
     username: '',
     email: '',
-    birthday: '',
     password: '',
     confirmPassword: ''
   });
@@ -34,15 +33,6 @@ function App() {
     },
     {
       id: 2,
-      name: 'birthday',
-      type: 'date',
-      placeholder: 'Birthday',
-      label: 'Birthday',
-      errorMessage: '',
-      required: true
-    },
-    {
-      id: 3,
       name: 'password',
       type: 'password',
       placeholder: 'Password',
@@ -52,7 +42,7 @@ function App() {
       required: true
     },
     {
-      id: 4,
+      id: 3,
       name: 'confirmPassword',
       type: 'password',
       placeholder: 'Confirm Password',
