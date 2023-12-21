@@ -1,4 +1,5 @@
-# Registration Form Validation using pure React hooks
+# Form Validation using React
+A registration form with real-time validation using the useState hook. The project provides an interactive user experience with instant feedback ensuring error-free submission.
 ## Feactures
 - React components
 - useState hook
