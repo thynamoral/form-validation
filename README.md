@@ -1,4 +1,4 @@
-# React Registration Form Validation
+# Registration Form Validation using pure React hooks
 ## Feactures
 - React components
 - useState hook
